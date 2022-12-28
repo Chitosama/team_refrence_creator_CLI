@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* using */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #dc672c;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+} 
+
+p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: right;
+    background-color: #dc672c;
+    padding: 20px 10% 20px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #dc672c;
+}
+
+.header h1 {
+    color: aquamarine;
+    background-color: #dc672c;
+    padding: 10px 5% 10px 0;
+    font-size: 5vh;
+    line-height: 1.5;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav a {
+    padding: 0;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+nav a:last-child{
+    margin-right: 0;
+}
+
+
+.bruce-banner {
+    background-image: url("./bruce-banner.jpg");
+    background-size: contain ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #dc672c;
+    padding-bottom: 27%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -60px;
+}
+
+.bruce-banner div h1
+{
+    margin-top: 60px;
+}
+
+.bruce-banner h1{
+    text-align: right;
+    font-size: 100px;
+    margin-top: 45px;
+    
+}
+
+.section-style img{
+    height:170px;
+    width: auto;
+    max-width: 500px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.section-style{
+    margin: auto;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-bottom: 30px;
+}
+
+.section-style h2{
+    text-align: right;
+    flex: 0 0 15%;
+    padding-right: 10px;
+    border-right: 5px solid black;
+    font-size: 3vw;
+    line-height: 1.5;
+}
+
+.section-style p{
+    margin-bottom: 30px;
+}
+
+.section-style > div{
+    flex: 0 0 80%;
+}
+
+/*some ideas for future use of div work item*/
+/* .work-item div{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: large;
+    margin: 50px;
+    padding: 50px;
+} */
+
+.contact-container a{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: large;
+}
+
+.contact-container a:hover{
+    font-style: italic;
+    color: blue;
+}
+
+.thumbnail { 
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    z-index:9; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+    } 
+    
+    /*change the number below to scale to the appropriate size*/ 
+    .thumbnail:hover { 
+    transform: scale(1.5); 
+    
+    }
+
+    
+@media screen and (max-width: 980px) {
+    header {
+      padding: 0 0 10px 0;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 10vw;
+    }
+  
+    header nav {
+      justify-content: center;
+    }
+  
+    .section-style > h2,
+    .section-style > div {
+      flex: 0 0 100%;
+    }
+  
+    .section-style > h2 {
+      border-right: none;
+      border-bottom: 4px solid;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      text-align: left;
+      font-size: 7vw;
+    }
+  }
