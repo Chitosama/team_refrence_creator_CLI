@@ -5,7 +5,7 @@
   [![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/),![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white),![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white),[![Minimum node.js version](https://badgen.net/npm/node/express)](https://npmjs.com/package/express)
 
 ## Description
-We create an HTML page after asking a sereies of questions of the manager and employees/interns under them.
+We create an HTML page after asking a series of questions of the manager and employees/interns under them.
 
 ## Table of Contents
 [Description](#description)
